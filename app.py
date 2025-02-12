@@ -1,4 +1,7 @@
 # app.py
+import utils.http_session
+import utils.transport
+import utils.session
 from fastapi import FastAPI
 from routes import chat  
 from utils.logger import logger
